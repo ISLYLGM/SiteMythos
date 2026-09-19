@@ -1340,3 +1340,16 @@ a {
         flex-direction: column;
     }
 }
+.features {
+    position: relative;
+    background-image: 
+        linear-gradient(
+            rgba(246, 239, 227, 0.82),
+            rgba(246, 239, 227, 0.82)
+        ),
+        url("imagens/Mascotes.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
