@@ -3,49 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mythos — Conheça o aplicativo</title>
+    <meta name="description"
+        content="MYTOS — Café, sabor e lendas. Um universo inspirado em mitologias.">
 
-    <meta
-        name="description"
-        content="Conheça o Mythos, um aplicativo desenvolvido para transformar conhecimento em uma experiência mais simples, organizada e interativa."
-    >
+    <title>MYTOS — Café, sabor e lendas</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- =========================
-         MENU
-    ========================== -->
+    <!-- =====================================
+         CABEÇALHO
+    ====================================== -->
 
     <header class="header">
 
         <a href="#inicio" class="logo">
-            MYTHOS
+            MYTOS
         </a>
 
         <button
             class="menu-button"
             id="menuButton"
             aria-label="Abrir menu"
-        >
+            aria-expanded="false"
+            type="button">
             ☰
         </button>
 
         <nav class="navigation" id="navigation">
 
             <a href="#inicio">Início</a>
-
-            <a href="#sobre">O Mythos</a>
-
+            <a href="#sobre">O MYTOS</a>
+            <a href="#mascotes">Mascotes</a>
+            <a href="#cardapio">Cardápio</a>
             <a href="#recursos">Recursos</a>
-
             <a href="#aplicativo">Aplicativo</a>
-
             <a href="#projeto">Projeto</a>
 
         </nav>
@@ -55,43 +51,37 @@
 
     <main>
 
-        <!-- =========================
-             HERO
-        ========================== -->
+        <!-- =====================================
+             INÍCIO
+        ====================================== -->
 
         <section class="hero" id="inicio">
 
             <div class="hero-content">
 
                 <span class="tag">
-                    ✦ UM NOVO JEITO DE EXPLORAR
+                    ✦ CAFÉ • MITOLOGIA • EXPERIÊNCIA
                 </span>
 
                 <h1>
-                    Conheça o
-                    <span>Mythos</span>
+                    Bem-vindo ao
+                    <span>MYTOS</span>
                 </h1>
 
                 <p>
-                    Uma experiência digital criada para tornar
-                    o conhecimento mais acessível, organizado
-                    e interessante.
+                    Um café onde sabores, histórias e
+                    mitologias se encontram em uma
+                    experiência feita para toda a família.
                 </p>
 
                 <div class="hero-buttons">
 
-                    <a
-                        href="#sobre"
-                        class="button primary"
-                    >
-                        Conhecer o projeto
+                    <a href="#sobre" class="button primary">
+                        Conhecer o MYTOS
                     </a>
 
-                    <a
-                        href="#aplicativo"
-                        class="button secondary"
-                    >
-                        Ver o aplicativo
+                    <a href="#cardapio" class="button secondary">
+                        Ver o cardápio
                     </a>
 
                 </div>
@@ -99,52 +89,39 @@
             </div>
 
 
-            <!-- =========================
-                 IAGO — MASCOTE PRINCIPAL
-            ========================== -->
-
             <div class="hero-mascot">
 
-                <div class="glow"></div>
+                <div class="hero-glow"></div>
 
-                <div class="mascot-circle">
+                <div class="hero-circle"></div>
 
-                    <div class="circle-decoration"></div>
+                <img
+                    src="imagens/mascote.png"
+                    alt="Mascote do MYTOS"
+                    class="hero-mascot-image">
 
-                </div>
-
-                
-
-                <div class="mascot-top">
-
-                    <img
-                        src="imagens/mascote.png"
-                        alt="Iago, mascote lobo-guará do Mythos"
-                    >
-
-                </div>
+                <div class="floating-star star-one">✦</div>
+                <div class="floating-star star-two">✧</div>
+                <div class="floating-star star-three">✦</div>
 
             </div>
 
         </section>
 
 
-        <!-- =========================
+        <!-- =====================================
              SOBRE
-        ========================== -->
+        ====================================== -->
 
-        <section
-            class="section about"
-            id="sobre"
-        >
+        <section class="section about" id="sobre">
 
-            <div class="section-title">
+            <div class="section-heading">
 
-                <span>01 — SOBRE</span>
+                <span>01 — O MYTOS</span>
 
                 <h2>
-                    O que é o
-                    <strong>Mythos?</strong>
+                    Muito mais que um
+                    <strong>café.</strong>
                 </h2>
 
             </div>
@@ -156,8 +133,7 @@
 
                     <img
                         src="imagens/splash.jpeg"
-                        alt="Interface do aplicativo Mythos"
-                    >
+                        alt="Universo visual do MYTOS">
 
                 </div>
 
@@ -165,156 +141,40 @@
                 <div class="about-text">
 
                     <p>
-                        O Mythos é um aplicativo desenvolvido como
-                        proposta acadêmica que transforma o universo
-                        das mitologias em uma experiência digital
-                        inspirada em uma cafeteria temática.
+                        O MYTOS é um café inspirado nas
+                        mitologias de diferentes culturas,
+                        transformando histórias e lendas
+                        em sabores e experiências.
                     </p>
 
                     <p>
-                        O projeto reúne referências de diferentes
-                        culturas, como as mitologias japonesa,
-                        nórdica, egípcia e grega, além de elementos
-                        da cultura e do folclore brasileiro.
+                        O espaço combina gastronomia,
+                        tecnologia e personagens próprios
+                        para criar um ambiente divertido,
+                        acolhedor e memorável.
                     </p>
 
-                    <p>
-                        A proposta é combinar essas referências em
-                        um universo próprio, leve, visual e
-                        interativo.
-                    </p>
 
-                    <p>
-                        A identidade brasileira também ganha destaque
-                        por meio do Iago, nosso lobo-guará.
-                    </p>
+                    <div class="about-highlight">
 
-                </div>
+                        <div class="about-highlight-icon">
+                            ✦
+                        </div>
 
-            </div>
+                        <div>
 
+                            <strong>
+                                Café + Mitologia + Tecnologia
+                            </strong>
 
-            <!-- =========================
-                 MASCOTES — IAGO / MIKA / BAST
-            ========================== -->
-
-            <div class="mascots-section">
-
-                <div class="mascots-title">
-
-                    <span>PERSONAGENS DO MYTHOS</span>
-
-                    <h2>
-                        Conheça nossos
-                        <strong>mascotes.</strong>
-                    </h2>
-
-                    <p>
-                        Cada mascote representa uma parte da
-                        identidade e das referências presentes
-                        no universo Mythos.
-                    </p>
-
-                </div>
-
-
-                <div class="mascots-grid">
-
-
-                    <!-- IAGO -->
-
-                    <article class="mascot-card iago-card">
-
-                        <div class="mascot-card-image">
-
-                            <div class="mascot-card-glow"></div>
-
-                            <img
-                                src="imagens/Gemini_Generated_Image_7mluc87mluc87mlu.jpg"
-                                alt="Iago, lobo-guará do Mythos"
-                            >
+                            <span>
+                                Uma experiência diferente
+                                para toda a família.
+                            </span>
 
                         </div>
 
-                        <div class="mascot-card-content">
-
-                            <span>BRASIL</span>
-
-                            <h3>Iago</h3>
-
-                            <p>
-                                Um lobo-guará que representa a
-                                identidade brasileira dentro do
-                                universo Mythos.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- MIKA -->
-
-                    <article class="mascot-card mika-card">
-
-                        <div class="mascot-card-image">
-
-                            <div class="mascot-card-glow"></div>
-
-                            <img
-                                src="imagens/Captura de Tela 2026-09-19 às 17.10.21.png"
-                                alt="Mika, kitsune do Mythos"
-                            >
-
-                        </div>
-
-                        <div class="mascot-card-content">
-
-                            <span>JAPÃO</span>
-
-                            <h3>Mika</h3>
-
-                            <p>
-                                Uma kitsune branca com detalhes
-                                rosados, inspirada no imaginário
-                                japonês.
-                            </p>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- BAST -->
-
-                    <article class="mascot-card bast-card">
-
-                        <div class="mascot-card-image">
-
-                            <div class="mascot-card-glow"></div>
-
-                            <img
-                                src="imagens/Gemini_Generated_Image_2uu25s2uu25s2uu2.jpg"
-                                alt="Bast, gata preta egípcia do Mythos"
-                            >
-
-                        </div>
-
-                        <div class="mascot-card-content">
-
-                            <span>EGITO</span>
-
-                            <h3>Bast</h3>
-
-                            <p>
-                                Uma gata preta inspirada na estética
-                                e na simbologia do antigo Egito.
-                            </p>
-
-                        </div>
-
-                    </article>
-
+                    </div>
 
                 </div>
 
@@ -323,28 +183,359 @@
         </section>
 
 
-        <!-- =========================
-             RECURSOS
-        ========================== -->
+        <!-- =====================================
+             MASCOTES
+        ====================================== -->
 
-        <section
-            class="section features"
-            id="recursos"
-        >
+        <section class="section mascots" id="mascotes">
 
-            <div class="section-title center">
+            <div class="section-heading">
 
-                <span>02 — RECURSOS</span>
+                <span>02 — MASCOTES</span>
 
                 <h2>
-                    Pensado para ser
-                    <strong>simples.</strong>
+                    Conheça quem faz parte
+                    do <strong>MYTOS.</strong>
                 </h2>
 
                 <p>
-                    Conheça alguns dos principais elementos
-                    presentes no Mythos.
+                    Três personagens inspirados em
+                    diferentes culturas e mitologias.
                 </p>
+
+            </div>
+
+
+            <div class="mascots-grid">
+
+
+                <!-- IAGO -->
+
+                <article class="mascot-card iago-card">
+
+                    <div class="mascot-image">
+
+                        <div class="mascot-glow"></div>
+
+                        <img
+                            src="imagens/Gemini_Generated_Image_7mluc87mluc87mlu.jpg"
+                            alt="Iago, lobo-guará brasileiro">
+
+                    </div>
+
+                    <div class="mascot-content">
+
+                        <span>BRASIL</span>
+
+                        <h3>Iago</h3>
+
+                        <p>
+                            Um lobo-guará que representa
+                            a identidade brasileira dentro
+                            do universo MYTOS.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- MIKA -->
+
+                <article class="mascot-card mika-card">
+
+                    <div class="mascot-image">
+
+                        <div class="mascot-glow"></div>
+
+                        <img
+                            src="imagens/Captura de Tela 2026-09-19 às 17.10.21.png"
+                            alt="Mika, kitsune japonesa">
+
+                    </div>
+
+                    <div class="mascot-content">
+
+                        <span>JAPÃO</span>
+
+                        <h3>Mika</h3>
+
+                        <p>
+                            Uma kitsune que traz a magia
+                            e a tradição japonesa para
+                            o MYTOS.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BAST -->
+
+                <article class="mascot-card bast-card">
+
+                    <div class="mascot-image">
+
+                        <div class="mascot-glow"></div>
+
+                        <img
+                            src="imagens/Gemini_Generated_Image_2uu25s2uu25s2uu2.jpg"
+                            alt="Bast, gata egípcia">
+
+                    </div>
+
+                    <div class="mascot-content">
+
+                        <span>EGITO</span>
+
+                        <h3>Bast</h3>
+
+                        <p>
+                            Uma gata inspirada na cultura
+                            egípcia e na simbologia da
+                            deusa Bastet.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             CARDÁPIO
+        ====================================== -->
+
+        <section class="section menu-section" id="cardapio">
+
+            <div class="section-heading">
+
+                <span>03 — CARDÁPIO</span>
+
+                <h2>
+                    Sabores inspirados
+                    em <strong>lendas.</strong>
+                </h2>
+
+                <p>
+                    Cada produto possui uma inspiração
+                    mitológica.
+                </p>
+
+            </div>
+
+
+            <div class="menu-categories">
+
+                <button
+                    class="category active"
+                    data-category="todos"
+                    type="button">
+                    Todos
+                </button>
+
+                <button
+                    class="category"
+                    data-category="bebidas"
+                    type="button">
+                    ☕ Bebidas
+                </button>
+
+                <button
+                    class="category"
+                    data-category="doces"
+                    type="button">
+                    🍰 Doces
+                </button>
+
+                <button
+                    class="category"
+                    data-category="salgados"
+                    type="button">
+                    🥐 Salgados
+                </button>
+
+            </div>
+
+
+            <div class="products-grid">
+
+
+                <!-- PRODUTO 1 -->
+
+                <article
+                    class="product-card"
+                    data-category="bebidas">
+
+                    <div class="product-icon orange">
+                        ☕
+                    </div>
+
+                    <span>BEBIDA</span>
+
+                    <h3>
+                        Café de Apolo
+                    </h3>
+
+                    <p>
+                        Café especial inspirado
+                        no deus grego do Sol.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>
+                            R$ 14,90
+                        </strong>
+
+                        <button
+                            type="button"
+                            aria-label="Adicionar Café de Apolo">
+                            +
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 2 -->
+
+                <article
+                    class="product-card"
+                    data-category="bebidas">
+
+                    <div class="product-icon blue">
+                        🌊
+                    </div>
+
+                    <span>BEBIDA</span>
+
+                    <h3>
+                        Néctar de Poseidon
+                    </h3>
+
+                    <p>
+                        Uma bebida refrescante
+                        inspirada no deus dos mares.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>
+                            R$ 16,90
+                        </strong>
+
+                        <button
+                            type="button"
+                            aria-label="Adicionar Néctar de Poseidon">
+                            +
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 3 -->
+
+                <article
+                    class="product-card"
+                    data-category="doces">
+
+                    <div class="product-icon pink">
+                        🍰
+                    </div>
+
+                    <span>DOCE</span>
+
+                    <h3>
+                        Torta de Hera
+                    </h3>
+
+                    <p>
+                        Uma sobremesa delicada
+                        inspirada na rainha dos deuses.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>
+                            R$ 18,90
+                        </strong>
+
+                        <button
+                            type="button"
+                            aria-label="Adicionar Torta de Hera">
+                            +
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 4 -->
+
+                <article
+                    class="product-card"
+                    data-category="bebidas">
+
+                    <div class="product-icon green">
+                        🍵
+                    </div>
+
+                    <span>BEBIDA</span>
+
+                    <h3>
+                        Chá de Kitsune
+                    </h3>
+
+                    <p>
+                        Chá inspirado nas criaturas
+                        mágicas do Japão.
+                    </p>
+
+                    <div class="product-bottom">
+
+                        <strong>
+                            R$ 13,90
+                        </strong>
+
+                        <button
+                            type="button"
+                            aria-label="Adicionar Chá de Kitsune">
+                            +
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             RECURSOS
+        ====================================== -->
+
+        <section class="section features" id="recursos">
+
+            <div class="section-heading">
+
+                <span>04 — RECURSOS</span>
+
+                <h2>
+                    Uma experiência
+                    <strong>pensada para você.</strong>
+                </h2>
 
             </div>
 
@@ -359,13 +550,12 @@
                     </div>
 
                     <h3>
-                        Experiência intuitiva
+                        Navegação simples
                     </h3>
 
                     <p>
-                        Uma interface pensada para que o usuário
-                        consiga encontrar o que precisa de maneira
-                        rápida e natural.
+                        Interface organizada para
+                        facilitar a navegação.
                     </p>
 
                 </article>
@@ -374,17 +564,16 @@
                 <article class="feature-card">
 
                     <div class="feature-icon">
-                        ◈
+                        ☕
                     </div>
 
                     <h3>
-                        Organização
+                        Cardápio digital
                     </h3>
 
                     <p>
-                        Informações apresentadas de forma clara,
-                        ajudando o usuário a navegar pelo conteúdo
-                        sem complicações.
+                        Consulte produtos e
+                        informações rapidamente.
                     </p>
 
                 </article>
@@ -393,47 +582,43 @@
                 <article class="feature-card">
 
                     <div class="feature-icon">
-                        ✧
+                        ♿
                     </div>
 
                     <h3>
-                        Identidade própria
+                        Acessibilidade
                     </h3>
 
                     <p>
-                        O Mythos possui uma identidade visual própria,
-                        utilizando elementos gráficos para tornar
-                        a experiência mais memorável.
+                        Recursos pensados para
+                        tornar a experiência mais inclusiva.
                     </p>
 
                 </article>
-
 
             </div>
 
         </section>
 
 
-        <!-- =========================
+        <!-- =====================================
              APLICATIVO
-        ========================== -->
+        ====================================== -->
 
-        <section
-            class="section app-section"
-            id="aplicativo"
-        >
+        <section class="section app-section" id="aplicativo">
 
-            <div class="section-title center">
+            <div class="section-heading">
 
-                <span>03 — O APLICATIVO</span>
+                <span>05 — APLICATIVO</span>
 
                 <h2>
-                    Veja o Mythos
-                    <strong>em ação.</strong>
+                    O MYTOS na palma da
+                    <strong>sua mão.</strong>
                 </h2>
 
                 <p>
-                    Algumas telas desenvolvidas para o aplicativo.
+                    Explore o cardápio, conheça os produtos
+                    e tenha a experiência MYTOS onde estiver.
                 </p>
 
             </div>
@@ -441,101 +626,143 @@
 
             <div class="app-showcase">
 
+
+                <!-- PRIMEIRA TELA -->
+
                 <div class="app-card">
 
                     <img
                         src="imagens/WhatsApp Image 2026-09-17 at 11.35.04.jpeg"
-                        alt="Tela inicial do Mythos"
-                    >
+                        alt="Tela inicial do aplicativo MYTOS">
 
                 </div>
 
+
+                <!-- TELA PRINCIPAL -->
 
                 <div class="app-card featured">
 
                     <img
                         src="imagens/telacardapio.jpeg"
-                        alt="Tela do aplicativo Mythos"
-                    >
+                        alt="Tela do cardápio do aplicativo MYTOS">
 
                 </div>
 
+
+                <!-- PERFIL -->
 
                 <div class="app-card">
 
                     <img
                         src="imagens/telaperfil.jpeg"
-                        alt="Outra tela do aplicativo Mythos"
-                    >
+                        alt="Tela de perfil do aplicativo MYTOS">
 
                 </div>
+
+
+                <!-- RIVE -->
+
+                <div class="app-rive">
+    <div class="rive-title">
+        <span>✦</span>
+        Nos avalie
+        <span>✦</span>
+    </div>
+
+    <canvas
+        id="riveApp"
+        width="500"
+        height="500">
+    </canvas>
+</div>
 
             </div>
 
         </section>
 
 
-        <!-- =========================
-             PROJETO ACADÊMICO
-        ========================== -->
+        <!-- =====================================
+             ACESSIBILIDADE
+        ====================================== -->
 
-        <section
-            class="section project"
-            id="projeto"
-        >
+        <section class="accessibility-section">
+
+            <div class="accessibility-content">
+
+                <span>
+                    ♿ ACESSIBILIDADE
+                </span>
+
+                <h2>
+                    Uma experiência
+                    <strong>para todos.</strong>
+                </h2>
+
+                <p>
+                    O aplicativo inclui recursos de
+                    acessibilidade para tornar a experiência
+                    mais simples e inclusiva.
+                </p>
+
+                <a
+                    href="#aplicativo"
+                    class="button white-button">
+                    Conhecer o aplicativo
+                </a>
+
+            </div>
+
+
+            <div class="accessibility-mascot">
+
+                <img
+                    src="imagens/mascote.png"
+                    alt="Mascote do MYTOS">
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             PROJETO
+        ====================================== -->
+
+        <section class="section project" id="projeto">
 
             <div class="project-content">
 
                 <span>
-                    04 — PROJETO ACADÊMICO
+                    06 — PROJETO ACADÊMICO
                 </span>
 
                 <h2>
-                    Tecnologia,
-                    criatividade e
-                    <strong>aprendizado.</strong>
+                    Tecnologia, criatividade e
+                    <strong>experiência.</strong>
                 </h2>
 
                 <p>
-                    O Mythos foi desenvolvido como parte de um projeto
-                    acadêmico, reunindo conhecimentos de desenvolvimento
-                    de software, design de interfaces e experiência
-                    do usuário.
+                    O MYTOS reúne desenvolvimento web,
+                    design de interfaces, identidade visual
+                    e experiência do usuário em um único projeto.
                 </p>
 
 
                 <div class="project-info">
 
                     <div>
-
                         <strong>HTML</strong>
-
-                        <span>
-                            Estrutura
-                        </span>
-
+                        <span>Estrutura</span>
                     </div>
 
-
                     <div>
-
                         <strong>CSS</strong>
-
-                        <span>
-                            Design
-                        </span>
-
+                        <span>Design</span>
                     </div>
 
-
                     <div>
-
                         <strong>JavaScript</strong>
-
-                        <span>
-                            Interatividade
-                        </span>
-
+                        <span>Interatividade</span>
                     </div>
 
                 </div>
@@ -547,8 +774,7 @@
 
                 <img
                     src="imagens/mythos_logo_vector.svg"
-                    alt="Mascote do Mythos"
-                >
+                    alt="Logo MYTOS">
 
             </div>
 
@@ -557,22 +783,36 @@
     </main>
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+    <!-- =====================================
+         RODAPÉ
+    ====================================== -->
 
     <footer class="footer">
 
-        <div>
+        <div class="footer-main">
 
-            <h3>
-                MYTHOS
-            </h3>
+            <div>
 
-            <p>
-                Um projeto acadêmico desenvolvido
-                com criatividade e tecnologia.
-            </p>
+                <h3>MYTOS</h3>
+
+                <p>
+                    Café, sabor e lendas.
+                    Um universo inspirado em mitologias.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#inicio">Início</a>
+                <a href="#sobre">O MYTOS</a>
+                <a href="#mascotes">Mascotes</a>
+                <a href="#cardapio">Cardápio</a>
+                <a href="#aplicativo">Aplicativo</a>
+                <a href="#projeto">Projeto</a>
+
+            </div>
 
         </div>
 
@@ -580,7 +820,7 @@
         <div class="footer-bottom">
 
             <span>
-                © 2026 Mythos
+                © 2026 MYTOS
             </span>
 
             <span>
@@ -592,8 +832,14 @@
     </footer>
 
 
+    <!-- =====================================
+         RIVE
+    ====================================== -->
+
+    <script src="https://unpkg.com/@rive-app/canvas"></script>
+
     <script src="script.js"></script>
 
 </body>
 
-</html>
+</html>s
